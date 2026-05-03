@@ -1,17 +1,151 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styl582.css">
-  <title>PRace techniczne</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LESZEK GAMES • Fjutczer</title>
+    <link rel="stylesheet" href="styl582.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <h1>Leszek Games</h1>
-  </header>
-  <main>
-    <img src="tech.png" alt="gruby z kontroli" width="355" height="268">
-  </main>
+    <!-- NAV -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-text">LESZEK</span>
+                <span class="logo-accent">GAMES</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Start</a></li>
+                <li><a href="#games">Gry</a></li>
+                <li><a href="#about">O Nas</a></li>
+                <li><a href="#team">Zespół</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section id="home" class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <div class="hero-badge">NAJLEPSZE POLSKIE STUDIO • EST. 2025</div>
+            <h1 class="hero-title">
+                TWORZYMY<br>
+                <span class="gradient-text">GRY</span><br>
+                W FORMIE GIER
+            </h1>
+            <p class="hero-subtitle">Emocjonujące tytuły</p>
+            
+            <div class="hero-buttons">
+                <a href="#games" class="btn-primary">ZOBACZ GRY</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- GAMES -->
+    <section id="games" class="section">
+        <div class="section-header">
+            <h2>NASZE GRY</h2>
+            <p class="section-subtitle">Projekty stworzone z pasją do tworzenia gier</p>
+        </div>
+        
+        <div class="games-grid">
+            <div class="game-card">
+                <div class="game-image" style="background-image: url('images/leszek3.png');">
+                    <div class="game-genre">STEALTH HORROR</div>
+                </div>
+                <div class="game-info">
+                    <h3>Leszek Basics 3</h3>
+                    <p>Emocjonująca gra horror o zbieraniu 7 podręczników i ucieczce.</p>
+                    <div class="game-tags">
+                        <span>PC</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="game-card">
+                <div class="game-image" style="background-image: url('images/pns.png');">
+                    <div class="game-genre">RHYTHM</div>
+                </div>
+                <div class="game-info">
+                    <h3>Piątkowa noc Szczoty</h3>
+                    <p>Wzruszająca historia miłosna w szkole Leszka.</p>
+                    <div class="game-tags">
+                        <span>PC</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="game-card">
+                <div class="game-image" style="background-image: url('images/pob2.png');">
+                    <div class="game-genre">NADCHODZĄCA</div>
+                </div>
+                <div class="game-info">
+                    <h3>Path of Barcin II</h3>
+                    <p>Piękna historia osadzona w średniowiecznej Europie.</p>
+                    <div class="game-tags">
+                        <span>PC</span>
+                        <span>Steam</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section about-section">
+        <div class="about-grid">
+            <div class="about-text">
+                <h2>O STUDIU</h2>
+                <p>Leszek Games to niezależne studio tworzące gry, by dostarczać wyjątkowe doświadczenia.</p>
+                <p>Od epickich walk po głębokie, emocjonalne historie — każdy tytuł jest tworzony z miłością.</p>
+            </div>
+            <div class="about-visual">
+                <div class="anime-frame"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TEAM -->
+    <section id="team" class="section">
+        <div class="section-header">
+            <h2>ZESPÓŁ</h2>
+        </div>
+        <div class="team-grid">
+            <div class="team-member">
+                <div class="member-avatar" style="background-image: url('images/leszek.png');"></div>
+                <h4>Leszek</h4>
+                <p>Founder & Creative Director</p>
+            </div>
+            <div class="team-member">
+                <div class="member-avatar" style="background-image: url('images/mabyn.png');"></div>
+                <h4>Alyn</h4>
+                <p>Lead Artist</p>
+            </div>
+            <div class="team-member">
+                <div class="member-avatar" style="background-image: url('images/szajzanusz.jpg');"></div>
+                <h4>szajzanusz</h4>
+                <p>Lead Programmer</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2026 Leszek Games. Wszystkie prawa zastrzeżone.</p>
+            <div class="social-links">
+                <a href="https://discord.gg/4GZPjCBVRA">Discord</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
